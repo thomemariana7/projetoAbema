@@ -38,21 +38,21 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-  #fotoDois {
+  #fotoDois{
     height: 40%;
     width: 40%;
-    display:inline;
+    display:inline 
    
   }
 
-  .tituloPaginas{
+  .tituloPaginasDois{
     color: #40386D;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0%;
-    display:inline;
+    display:flex
   }
 
-  .textoPaginas{
+  .textoPaginasDois{
     color: #40386D;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
     width: 400px;
