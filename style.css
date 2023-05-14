@@ -85,19 +85,12 @@ body{
     display: inline;
     display: table-cell;
   }
-
-  .containerTres{
-    display: flex;
-    justify-content: center;
-    align-items: center;
   
-    width: 100%;
-    max-width: 1400px;
-  
-    gap: 2rem;
+  .tituloPaginasQuatro{
+    color: #40386D;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  
-  
+
   .textoPaginasQuatro{
     color: #40386D;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -107,5 +100,4 @@ body{
    display: inline;
    display: table-cell;
   }
-  
 
