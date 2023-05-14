@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: #E8E8E8;
+    margin-left: auto;
 }
 .paginaCapa{
     background-image: url(/image/CAPA.jpg);
@@ -84,6 +85,18 @@ body{
     display: inline;
     display: table-cell;
   }
+
+  .containerTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    max-width: 1400px;
+  
+    gap: 2rem;
+  }
+  
   
   .textoPaginasQuatro{
     color: #40386D;
