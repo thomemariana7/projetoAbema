@@ -85,8 +85,17 @@ body{
     display: inline;
     display: table-cell;
   }
-  
+
+  #fotoQuatro{
+    height: -80%;
+    width: 80%;
+    margin: auto;
+    display: inline;
+    display: flex;
+  }
+
   .tituloPaginasQuatro{
+    margin-left:auto;
     color: #40386D;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
@@ -98,6 +107,16 @@ body{
     height: 500px;
     margin: auto;
    display: inline;
-   display: table-cell;
+  }
+
+  .containerQuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    max-width: 1400px;
+  
+    gap: 2rem;
   }
 
