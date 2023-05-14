@@ -19,7 +19,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#subTituiloPagina1 {
+#subTituloPagina1 {
     text-align:center;
     color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,29 +38,35 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-  #fotoDois{
-    height: 40%;
-    width: 40%;
-    display:inline 
-   
-  }
+.paginaDois {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .tituloPaginasDois{
-    color: #40386D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0%;
-    display:flex
-  }
+.containerDois {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .textoPaginasDois{
-    color: #40386D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-    width: 400px;
-    height: 500px;
-    margin: 0%;
-    display:inline;
-    
-  }
+  width: 100%;
+  max-width: 1400px;
+
+  gap: 2rem;
+}
+
+#fotoDois {
+  width: 50%;
+  max-width:fit-content;
+}
+.textoPaginasDois{
+  color: #40386D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tituloPaginasDois{
+  color: #40386D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
   #fotoTres{
     height: -80%;
     width: 80%;
