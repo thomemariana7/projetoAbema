@@ -1,44 +1,20 @@
-body{
-    margin: 0px;
-    background-color: #E8E8E8;
-    margin-left: auto;
-    padding: 30px 32px 0 30px;
-}
-.paginaCapa{
-    background-image: url(/image/CAPA.jpg);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: scroll;
-    background-size: 100%;
-    height:600px;
-    opacity: 0.7;
-    }
+@import './css/color.css';
+@import './css/global.css';
+@import './css/font.css';
+@import './css/header-styles.css';
 
-#tituloPagina1{
-    padding-top: 275px;
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
+
+
 
 #subTituloPagina1 {
     text-align:center;
-    color: whitesmoke;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-ref-secondary0);
+    font-family: var(--font-family-ref-primary0);
 
 }
 
-#botãoDoeAgora{
-    border-style:solid;
-    border-radius: 40px;
-    border-color: #E8E8E8;
-    height: 60px;
-    line-height: 30px;
-    padding: 0 20px;
-    margin-left: 90%;
-    margin-top: 10px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
+
 
 .paginaDois {
   display: flex;
@@ -62,12 +38,12 @@ body{
   max-width:fit-content;
 }
 .textoPaginasDois{
-  color: #40386D;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--color-ref-tertiary0);
+  font-family: var(--font-family-ref-primary0);
 }
 .tituloPaginasDois{
-  color: #40386D;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--color-ref-tertiary0);
+  font-family: var(--font-family-ref-primary0);
 }
   #fotoTres{
     height: -80%;
@@ -78,8 +54,8 @@ body{
   }
   
   .tituloPaginasTres{
-    color: #40386D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-ref-tertiary0);
+    font-family: var(--font-family-ref-primary0);
     width: 400px;
     height: 500px;
     margin: auto;
@@ -97,13 +73,13 @@ body{
 
   .tituloPaginasQuatro{
     margin-left:auto;
-    color: #40386D;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-ref-tertiary0);
+    font-family: var(--font-family-ref-primary0);
   }
 
   .textoPaginasQuatro{
-    color: #40386D;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-ref-tertiary0);
+    font-family:var(--font-family-ref-primary0);
     width: 400px;
     height: 500px;
     margin: auto;
