@@ -2,6 +2,8 @@
 @import './css/global.css';
 @import './css/font.css';
 @import './css/header-styles.css';
+@import './css/main-styles.css';
+@import './css/footer-styles.css';
 
 
 
@@ -71,12 +73,12 @@
     display:flex;
   }
   
-  .tituloPaginasTres{
-    color: var(--color-ref-tertiary0);
+  /* .tituloPaginasTres{
+    
     font-family: var(--font-family-ref-primary0);
     font-size: 40px;
     scroll-margin-inline-end: -30px;
-  }
+  } */
 
   #fotoQuatro{
     height: -80%;

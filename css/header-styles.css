@@ -1,4 +1,4 @@
-header {
+header > div {
     position: relative;
     background-image: url(/image/CAPA.jpg);
     background-repeat: no-repeat;
