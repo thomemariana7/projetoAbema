@@ -14,34 +14,34 @@ header {
     top: 279px;
     display: grid;
     justify-content: center;
-    
 }
 
-.Title  h1, p {
+.Title  h1, .Title p {
     color: var(--color-ref-primary0);
     font-family:var(--font-family-ref-primary0);
     margin: 0;
 }
 
 .Title h1 {
-    text-shadow: 2px 2px var(--color-ref-secondary0);
-    font-size: 35px;
+    text-shadow: 1px 2px 1px var(--color-ref-secondary0);
+    font-size: 39px;
 }
 
 .btnDonateNow{
-    border: 8px solid var(--color-ref-primary0);
+    border: 8px solid var(--color-ref-secondary0);
     background-color:rgba(0,0,0,0.1);
     border-radius: 40px;
     height: 60px;
-    width: 150px;
+    width: 180px;
     position: absolute;
     right: 50px;
     top: 10px;
-    color: var(--color-ref-primary0);
+    color: var(--color-ref-secondary0);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 .btnDonateNow img {
