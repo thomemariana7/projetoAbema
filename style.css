@@ -76,9 +76,6 @@
     font-family: var(--font-family-ref-primary0);
     width: 400px;
     height: 500px;
-    margin: auto;
-    display: inline;
-    display: table-cell;
     font-size: 40px;
   }
 
