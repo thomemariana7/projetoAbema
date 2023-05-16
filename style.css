@@ -15,7 +15,6 @@
 }
 
 
-
 .paginaDois {
   display: flex;
   justify-content: center;
@@ -26,10 +25,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 100%;
   max-width: 1400px;
-
   gap: 2rem;
 }
 
@@ -37,14 +34,21 @@
   width: 50%;
   max-width:fit-content;
 }
+
 .textoPaginasDois{
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  display: inline;
   color: var(--color-ref-tertiary0);
   font-family: var(--font-family-ref-primary0);
 }
+
 .tituloPaginasDois{
   color: var(--color-ref-tertiary0);
   font-family: var(--font-family-ref-primary0);
 }
+
   #fotoTres{
     height: -80%;
     width: 80%;
