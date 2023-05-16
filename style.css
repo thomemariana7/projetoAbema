@@ -47,6 +47,7 @@
 }
 
 .textoPaginasDois{
+  font-size: 30px;
   width: 400px;
   height: 500px;
   margin: auto;
@@ -58,6 +59,8 @@
 .tituloPaginasDois{
   color: var(--color-ref-tertiary0);
   font-family: var(--font-family-ref-primary0);
+  font-size: 40px;
+
 }
 
   #fotoTres{
@@ -76,6 +79,7 @@
     margin: auto;
     display: inline;
     display: table-cell;
+    font-size: 40px;
   }
 
   #fotoQuatro{
@@ -98,7 +102,6 @@
     width: 400px;
     height: 500px;
     margin: auto;
-   display: inline;
   }
 
   .containerQuatro {
