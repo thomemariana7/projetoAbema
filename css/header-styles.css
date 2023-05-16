@@ -2,29 +2,36 @@ header {
     position: relative;
     background-image: url(/image/CAPA.jpg);
     background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: scroll;
-    background-size: 100%;
-    height:600px;
-    opacity: 0.7;
+    background-position: center center;
+    background-size: cover;
+    height:800px;
 }
 
 .Title {
     position: relative;
-    top: 279px;
+    top: 44%;
+    width: 52%;
+    margin: 0 auto;
     display: grid;
+    grid-template-rows: 1fr 35px 1fr;
     justify-content: center;
 }
 
 .Title  h1, .Title p {
-    color: var(--color-ref-primary0);
+    color: var(--color-ref-secondary0);
     font-family:var(--font-family-ref-primary0);
     margin: 0;
 }
 
 .Title h1 {
-    text-shadow: 1px 2px 1px var(--color-ref-secondary0);
+    text-shadow: 4px 2px 3px var(--color-ref-tertiary10);
     font-size: 39px;
+}
+
+.Title p {
+    grid-row-start: 3;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .btnDonateNow{
@@ -32,7 +39,7 @@ header {
     background-color:rgba(0,0,0,0.1);
     border-radius: 40px;
     height: 60px;
-    width: 180px;
+    width: 200px;
     position: absolute;
     right: 50px;
     top: 10px;
