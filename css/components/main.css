@@ -1,8 +1,27 @@
 main {
     margin-top: 8px;
-    margin-left: 8px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 700px 700px 1fr;
+}
+main .sobreNos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 28px;
+}
+main .sobreNos img {
+    width: 50%;
+}
+.sobreNosTexto h3, p {
+    color: var(--color-ref-tertiary0);
+    font-family: var(--font-family-ref-primary0);
+}
+.sobreNosTexto h3 {
+    font-size: 2rem;
+}
+.sobreNosTexto p {
+    font-size: 1.5rem;
 }
 
 main section:nth-child(2) {
