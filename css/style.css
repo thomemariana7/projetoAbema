@@ -1,9 +1,9 @@
-@import './css/color.css';
-@import './css/global.css';
-@import './css/font.css';
-@import './css/header-styles.css';
-@import './css/main-styles.css';
-@import './css/footer-styles.css';
+@import './global.css';
+@import './variable/color.css';
+@import './variable/fonts.css';
+@import './components/header.css';
+@import './components/main.css';
+@import './components/footer.css';
 
 
 
