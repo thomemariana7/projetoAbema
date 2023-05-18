@@ -65,10 +65,9 @@
 
   #fotoTres{
     height: -80%;
-    width: 80%;
+    width: -80%;
     margin: auto;
-    display: inline;
-    display:flex;
+    display:flex
   }
   
   .tituloPaginasTres{
