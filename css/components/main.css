@@ -12,15 +12,15 @@ main {
 main .sobreNos img {
     width: 47%;
 }
-.sobreNosTexto h3, p {
+.sobreNosTexto h3 {
+    font-size: 2rem;
     color: var(--color-ref-tertiary0);
     font-family: var(--font-family-ref-primary0);
 }
-.sobreNosTexto h3 {
-    font-size: 2rem;
-}
 .sobreNosTexto p {
     font-size: 1.5rem;
+    color: var(--color-ref-tertiary0);
+    font-family: var(--font-family-ref-primary0);
 }
 
 
@@ -58,3 +58,18 @@ main .sobreNos img {
     height: 100%;
 }
 
+.suaAjuda {
+    display: flex;
+    align-items: center;
+    color: var(--color-ref-secondary0);
+    background-color: var(--color-ref-tertiary0);
+}
+
+.suaAjuda img {
+    height: 80%;
+    margin-left: 8px;
+}
+
+.suaAjuda .texto {
+    width: 40%;
+}

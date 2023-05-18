@@ -41,20 +41,6 @@
     display: flex;
   }
 
-  .tituloPaginasQuatro{
-    margin-left:auto;
-    color: var(--color-ref-tertiary0);
-    font-family: var(--font-family-ref-primary0);
-  }
-
-  .textoPaginasQuatro{
-    color: var(--color-ref-tertiary0);
-    font-family:var(--font-family-ref-primary0);
-    width: 400px;
-    height: 500px;
-    margin: auto;
-  }
-
   .containerQuatro {
     display: flex;
     justify-content: center;
