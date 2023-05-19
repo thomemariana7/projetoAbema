@@ -6,12 +6,12 @@ main {
 .sobreNos {
     display: flex;
     justify-content: center;
-    padding: 0 0 0 14px;
     width: 100%;
     gap: 28px;
 }
 main .sobreNos img {
     width: 47%;
+    padding: 0 0 0 14px;
 }
 .sobreNosTexto h3 {
     font-size: 2rem;
@@ -67,17 +67,26 @@ main .sobreNos img {
 }
 
 .suaAjuda {
-    display: flex;
-    padding: 0 0 0 14px;
-    align-items: center;
+    display: grid;
+    grid-template-columns:453px 100px 445px;
+    margin: 28px 0 0 0;
+    padding: 41px 0 41px 14px;
     color: var(--color-ref-secondary0);
     background-color: var(--color-ref-tertiary0);
 }
 
 .suaAjuda img {
-    height: 90%;
+    height: 453px;
 }
 
 .suaAjuda .texto {
-    width: 40%;
+    grid-column-start: 3;
+}
+
+.suaAjuda .texto h4 {
+    font-size: 2rem;
+}
+
+.suaAjuda .texto p {
+    font-size: 1.5rem;
 }
