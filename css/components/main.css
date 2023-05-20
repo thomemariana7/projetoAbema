@@ -1,16 +1,19 @@
 main {
     margin-top: 28px;
-    display: grid;
-    grid-template-rows: 700px 600px 1fr;
+    display: flex;
+    flex-direction: column;
 }
 .sobreNos {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    /* justify-content: center;
     width: 100%;
-    gap: 28px;
+    gap: 28px; */
 }
 main .sobreNos img {
     width: 47%;
+    height: 80%;
     padding: 0 0 0 14px;
 }
 .sobreNosTexto h3 {
@@ -28,8 +31,8 @@ main .sobreNos img {
 .nossosProjetos {
     margin: 28px 0 0 0; 
     padding: 0 0 0 14px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    gap: 138px;
 }
 
 .nossosProjetos > .nossosProjetosTexto {
@@ -61,14 +64,14 @@ main .sobreNos img {
     
 }
 
-.nossosProjetos img {
-    left: 0;
-    height: 100%;
+.nossosProjetosImgs img {
+    width: 100%;
 }
 
 .suaAjuda {
-    display: grid;
-    grid-template-columns:453px 100px 445px;
+    display: flex;
+    gap: 138px;
+    align-items: center;
     margin: 28px 0 0 0;
     padding: 41px 0 41px 14px;
     color: var(--color-ref-secondary0);
@@ -76,7 +79,7 @@ main .sobreNos img {
 }
 
 .suaAjuda img {
-    height: 453px;
+    width: 100%;
 }
 
 .suaAjuda .texto {
