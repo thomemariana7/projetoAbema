@@ -6,27 +6,27 @@ main {
 .sobreNos {
     display: flex;
     align-items: center;
-    gap: 19px;
-    /* justify-content: center;
-    width: 100%;
-    gap: 28px; */
+    justify-content: space-evenly;
+    
 }
-main .sobreNos img {
-    width: 47%;
-    height: 80%;
-    padding: 0 0 0 14px;
+
+.sobreNosImg, 
+.sobreNosImg img, 
+.sobreNosTexto {
+    width: 500px;
 }
+
 .sobreNosTexto h3 {
     font-size: 2rem;
     color: var(--color-ref-tertiary0);
     font-family: var(--font-family-ref-primary0);
+    margin-bottom: 18px;
 }
 .sobreNosTexto p {
     font-size: 1.5rem;
     color: var(--color-ref-tertiary0);
     font-family: var(--font-family-ref-primary0);
 }
-
 
 .nossosProjetos {
     margin: 28px 0 0 0; 
@@ -70,26 +70,72 @@ main .sobreNos img {
 
 .suaAjuda {
     display: flex;
-    gap: 138px;
     align-items: center;
     margin: 28px 0 0 0;
-    padding: 41px 0 41px 14px;
+    padding: 41px 0 41px 0;
     color: var(--color-ref-secondary0);
     background-color: var(--color-ref-tertiary0);
+    justify-content: space-evenly;
 }
 
-.suaAjuda img {
-    width: 100%;
+.suaAjudaImg, 
+.suaAjudaImg img, 
+.suaAjudaTexto  {
+    width: 500px;
 }
 
-.suaAjuda .texto {
+.suaAjudaTexto {
     grid-column-start: 3;
 }
 
-.suaAjuda .texto h4 {
+.suaAjuda .suaAjudaTexto h4 {
     font-size: 2rem;
+    margin-bottom: 18px;
 }
 
-.suaAjuda .texto p {
+.suaAjuda .suaAjudaTexto p {
     font-size: 1.5rem;
 }
+
+.contribuicao {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.contribuicao 
+.padrinho, 
+.facaParte, 
+.doeAgora {
+    width: 150px;
+    display: grid;
+    gap: 8px;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contribuicao img {
+    max-width: 100%;
+}
+
+.contribuicao p {
+    color: var(--color-ref-tertiary0);
+    font-size: 1rem;
+}
+
+
+.contribuicao a  {
+    background-color: var(--color-ref-tertiary0);
+    color: var(--color-ref-secondary0);
+    width: 125px;
+    padding: 19px 8px;
+    border: 4px solid var(--color-ref-secondary0);
+    border-radius:50px ;
+    text-decoration: none;    
+    font-size: 0.8rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+
