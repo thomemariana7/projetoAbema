@@ -1,10 +1,12 @@
-header > div {
+header {
     position: relative;
     background-image: url(/image/CAPA.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    height:800px;
+    background-position: center center;
+}
+header > div {
+    height:100%;
 }
 
 .Title {
@@ -25,12 +27,12 @@ header > div {
 
 .Title h1 {
     text-shadow: 4px 2px 3px var(--color-ref-tertiary10);
-    font-size: 39px;
+    font-size: 2.1rem;
 }
 
 .Title p {
     grid-row-start: 3;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 

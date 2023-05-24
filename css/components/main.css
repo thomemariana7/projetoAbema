@@ -13,7 +13,7 @@ main {
 .sobreNosImg, 
 .sobreNosImg img, 
 .sobreNosTexto {
-    width: 500px;
+    max-width: 462px;
 }
 
 .sobreNosTexto h3 {
@@ -30,7 +30,7 @@ main {
 
 .nossosProjetos {
     margin: 28px 0 0 0; 
-    padding: 0 0 0 14px;
+    padding: 0 14px 0 14px;
     display: flex;
     gap: 138px;
 }

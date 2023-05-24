@@ -1,0 +1,27 @@
+@media (max-width: 1024px) {
+    .Title {
+        width: 60%;
+    }
+    .Title h1 {
+        text-shadow: 4px 2px 3px var(--color-ref-tertiary10);
+        font-size: 1.7rem;
+    }
+
+    .Title p {
+        font-size: 1rem;
+    }
+    .imageCarousel {
+        display: block;
+    }
+    .nossosProjetos {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+   
+    .nossosProjetos {
+        display: none;
+    }
+}

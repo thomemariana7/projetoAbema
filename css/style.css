@@ -4,3 +4,5 @@
 @import './components/header.css';
 @import './components/main.css';
 @import './components/footer.css';
+@import './responsive.css';
+@import './base/carousel.css';
