@@ -22,7 +22,7 @@
 
 .carousel {
     width: 70%;
-    height: 384px;
+    height: 60%;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -50,7 +50,6 @@
 }
    
 .carousel-indicators {
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     margin: 10px;

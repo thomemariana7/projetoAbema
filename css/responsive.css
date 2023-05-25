@@ -1,3 +1,37 @@
+@media(min-width: 769px) and (max-width:960px) {
+    .sobreNos {
+        flex-direction: column;
+    }
+    
+    .sobreNosImg {
+        text-align: center;
+        width: 80%;
+    }
+
+    .sobreNosImg img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .sobreNosTexto {
+        width: 65%;
+    }
+
+    .sobreNosTexto p {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .suaAjuda .suaAjudaTexto p {
+        font-size: 1.1rem;
+    }
+
+    .suaAjudaTexto {
+        padding: 0 8px 0 0;
+    }
+    
+}
+
 @media (max-width: 1024px) {
     .Title {
         width: 60%;
@@ -11,10 +45,18 @@
         font-size: 1rem;
     }
     .imageCarousel {
+        height: 500px;
         display: block;
     }
     .nossosProjetos {
         display: none;
+    }
+
+    .suaAjudaImg {
+        text-align: center;
+    }
+    .suaAjudaImg, .suaAjudaImg img, .suaAjudaTexto {
+        width: 90%;
     }
 }
 
@@ -23,5 +65,68 @@
    
     .nossosProjetos {
         display: none;
+    }
+
+    .sobreNos {
+        flex-direction: column;
+    }
+
+    .sobreNosTexto {
+        width: 65%;
+    }
+
+    .sobreNosTexto h3 {
+        text-align: center;
+    }
+
+    .sobreNosTexto p {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .sobreNosTexto p:nth-child(2)  {
+        margin: 0 0 16px;
+    }
+
+    .suaAjuda {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .suaAjudaTexto {
+        width: 65%;
+    }
+    .suaAjuda .suaAjudaTexto h4 {
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .suaAjuda .suaAjudaTexto p {
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .suaAjuda .suaAjudaTexto p:nth-child(2) {
+        margin: 0 0 16px;
+    }
+
+    .contribuicao {
+        gap: 40px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contribuicao 
+    .padrinho, 
+    .facaParte, 
+    .doeAgora {
+        width: 300px;
+    }
+}
+
+@media screen and  (max-width: 733px) {
+    .carousel {
+        width: 74%;
+        height: 50%;
     }
 }
