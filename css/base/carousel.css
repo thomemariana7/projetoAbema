@@ -2,7 +2,15 @@
     font-size: 2rem;
     color: var(--color-ref-tertiary0);
     text-align: center;
-    margin: 28px auto 18px auto;
+    margin: 18px auto 18px auto;
+}
+
+.carousel {
+    width: 65%;
+    height: 65%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
 }
 
 .imageCarousel  a {
@@ -20,13 +28,7 @@
     margin: 18px auto 0 auto;
 }
 
-.carousel {
-    width: 70%;
-    height: 60%;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-}
+
 
 .carousel-inner {
     width: 100%;

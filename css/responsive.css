@@ -1,41 +1,8 @@
-@media(min-width: 769px) and (max-width:960px) {
-    .sobreNos {
-        flex-direction: column;
-    }
-    
-    .sobreNosImg {
-        text-align: center;
-        width: 80%;
-    }
-
-    .sobreNosImg img {
-        width: 90%;
-        height: 100%;
-    }
-
-    .sobreNosTexto {
-        width: 65%;
-    }
-
-    .sobreNosTexto p {
-        font-size: 1.1rem;
-        text-align: justify;
-    }
-
-    .suaAjuda .suaAjudaTexto p {
-        font-size: 1.1rem;
-    }
-
-    .suaAjudaTexto {
-        padding: 0 8px 0 0;
-    }
-    
+:root {
+    --heigth-img: 75%;
 }
 
 @media (max-width: 1024px) {
-    .Title {
-        width: 60%;
-    }
     .Title h1 {
         text-shadow: 4px 2px 3px var(--color-ref-tertiary10);
         font-size: 1.7rem;
@@ -45,7 +12,7 @@
         font-size: 1rem;
     }
     .imageCarousel {
-        height: 500px;
+        height: 584px;
         display: block;
     }
     .nossosProjetos {
@@ -53,12 +20,37 @@
     }
 
     .suaAjudaImg {
+        width: var(--heigth-img);
         text-align: center;
     }
-    .suaAjudaImg, .suaAjudaImg img, .suaAjudaTexto {
-        width: 90%;
-    }
+    
 }
+
+
+@media(min-width: 769px) and (max-width: 847px) {
+    .sobreNosTexto h3, .suaAjudaTexto h4 {
+        font-size: 1.8rem;
+    }
+
+    .sobreNosTexto p {
+        font-size: 1.3rem;
+    }
+
+    .carousel-item img {
+        height: inherit !important;
+    }
+
+    .suaAjudaTexto h4 {
+        font-size: 1.8rem !important;
+    }
+
+    .suaAjudaTexto p {
+        font-size: 1.3rem !important;
+    }
+    
+    
+}
+
 
 
 @media (max-width: 768px) {
@@ -71,39 +63,57 @@
         flex-direction: column;
     }
 
+    .sobreNosImg {
+        text-align: center;
+        width: var(--heigth-img);
+    }
+
     .sobreNosTexto {
-        width: 65%;
+        width: 75%;
     }
 
     .sobreNosTexto h3 {
         text-align: center;
+        font-size: 1.4rem;
+        margin: 8px 0 0;
     }
 
-    .sobreNosTexto p {
+    .sobreNosTexto p   {
         font-size: 1.1rem;
-        text-align: justify;
+        text-align: initial;
+        margin: 8px 0 8px 0;
     }
 
-    .sobreNosTexto p:nth-child(2)  {
-        margin: 0 0 16px;
+    .imageCarousel h4 {
+        font-size: 1.4rem !important;
+        font-family: var(--font-family-ref-primary0);
+    }
+
+    .imageCarousel a {
+        padding: 17px 8px !important;
     }
 
     .suaAjuda {
         text-align: center;
         flex-direction: column;
+        margin: 0;
     }
 
     .suaAjudaTexto {
-        width: 65%;
+        width: 75%;
     }
+
     .suaAjuda .suaAjudaTexto h4 {
         margin: 12px 0;
         text-align: center;
+        font-size: 1.4rem;
+        font-family: var(--font-family-ref-primary0);
     }
 
     .suaAjuda .suaAjudaTexto p {
         font-size: 1.1rem;
-        text-align: justify;
+        text-align: initial;
+        font-family: var(--font-family-ref-primary0);
     }
 
     .suaAjuda .suaAjudaTexto p:nth-child(2) {
@@ -116,6 +126,10 @@
         flex-direction: column;
     }
 
+    .contribuicao img {
+        width: initial;
+    }
+
     .contribuicao 
     .padrinho, 
     .facaParte, 
@@ -124,10 +138,19 @@
     }
 }
 
-@media screen and  (max-width: 733px) {
+@media (max-width: 685px) {
+    .imageCarousel {
+        height: 471px;
+        padding-bottom: 18px;
+    }
+
     .carousel {
-        width: 74%;
-        height: 50%;
+        width: 75% !important;
     }
 }
 
+@media (max-width: 596px) {
+    .Title h1 {
+        font-size: 1.3rem;
+    }
+}

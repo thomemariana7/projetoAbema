@@ -1,25 +1,32 @@
 main {
-    margin-top: 28px;
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
 }
 .sobreNos {
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 12px 12px 0;
+    gap: 12px;
 }
 
 .sobreNosTexto {
     text-align: center;
-    width: 88%;
-    padding: 0 12px 0 0;
 }
 
-.sobreNosImg, 
-.sobreNosImg img, 
-.sobreNosTexto {
+.sobreNosImg {
+    width: 600px;
+}
+
+.sobreNosImg img {
     text-align: center;
-    width: 88%;
+    width: 100%;
+}
+
+.sobreNosTexto {
+    width: 800px;
 }
 
 .sobreNosTexto h3 {
@@ -36,7 +43,7 @@ main {
 }
 
 .nossosProjetos {
-    margin: 28px 0 0 0; 
+    margin: 16px 0 0 0; 
     padding: 0 14px 0 14px;
     display: flex;
     gap: 138px;
@@ -78,17 +85,23 @@ main {
 .suaAjuda {
     display: flex;
     align-items: center;
-    margin: 28px 0 0 0;
-    padding: 41px 0 41px 0;
+    gap: 12px;
+    margin: 16px 0 0 0;
+    padding: 41px 0 41px 12px;
     color: var(--color-ref-secondary0);
     background-color: var(--color-ref-tertiary0);
-    justify-content: space-evenly;
 }
 
-.suaAjudaImg, 
-.suaAjudaImg img, 
-.suaAjudaTexto  {
-    width: 500px;
+.suaAjudaImg {
+    width: 600px;
+}
+.suaAjudaImg img {
+    width: 100%;
+}
+
+.suaAjudaTexto {
+    width: 800px;
+    grid-column-start: 3;
 }
 
 .suaAjudaTexto {
