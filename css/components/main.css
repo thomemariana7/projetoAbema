@@ -123,6 +123,7 @@ main {
 
 .contribuicao {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
 }
