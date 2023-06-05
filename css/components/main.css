@@ -53,12 +53,12 @@ main {
     background-position: center center;
     position: relative;
     z-index: -1;
-    height: 866px;
+    height: 600px;
 }
 
 .imageValores h4 {
     position: relative;
-    padding-top: 122px;
+    padding: 122px 0 90px 0;
     font-size: 32px;
     font-family: var(--texto-Chewy);
     color: #64106e;
@@ -80,9 +80,32 @@ main {
     justify-content: space-evenly;
 }
 
+.galeriaDeImagem > div {
+ width: 176px;
+ height: 176px;
+ text-align: center;
+ color: #64106e;
+ font-family: sans-serif;
+ font-size: 16px;
+ background-color: aliceblue;
+ box-shadow: 8px 8px red;
+}
+
+.galeriaDeImagem  div p:nth-child(2) {
+    font-weight: bold;
+}
+
 .valores img {
     position: relative;
     
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+}
+.logo img {
+    width: 123px;
 }
 
 .nossosProjetos {
