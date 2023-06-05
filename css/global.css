@@ -13,14 +13,3 @@ body{
 .imageCarousel {
     display: none;
 }
-
-.ValoresMarca {
-    width: 500px;
-    display: inline-block;
-    background-color: var(--color-ref-primary0);
-}
-.hope {
-    width: 500px;
-    display: inline-block;
-    background-color: var(--color-ref-primary0);
-}
