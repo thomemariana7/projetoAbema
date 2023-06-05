@@ -15,16 +15,17 @@ body{
 }
 
 .ValoresMarca {
+    
     width: 500px;
     display: inline-block;
     display: flex;
     flex-direction: column;
     background-color: var(--color-ref-primary0);
 }
-.hope{
+.hope {
     width: 500px;
     display: inline-block;
     display: flex;
-    flex-direction:;
+    flex-direction:column;
     background-color: var(--color-ref-primary0);
 }
