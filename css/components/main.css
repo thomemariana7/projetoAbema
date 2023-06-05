@@ -1,7 +1,3 @@
-:root {
-    --texto-Chewy: 'Chewy', cursive;
-}
-
 main {
     margin-top: 16px;
     display: flex;
@@ -56,6 +52,7 @@ main {
     background-size: cover;
     background-position: center center;
     position: relative;
+    z-index: -1;
     height: 866px;
 }
 
@@ -64,6 +61,7 @@ main {
     padding-top: 122px;
     font-size: 32px;
     font-family: var(--texto-Chewy);
+    color: #64106e;
     text-align: center;
 }
 
@@ -71,12 +69,15 @@ main {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 0.5;
+    z-index: -1;
     background-color: rgba(255, 249, 120, 0.5);
 }
 
 .galeriaDeImagem {
+    display: flex;
     background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .valores img {
