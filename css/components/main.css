@@ -43,7 +43,9 @@ main {
 }
 
 .valores {
-
+    display: grid;
+    gap: 16px;
+    margin: 16px 0 0px 0;
 }
 
 .imageValores {
@@ -75,7 +77,6 @@ main {
 
 .galeriaDeImagem {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -106,6 +107,10 @@ main {
 }
 .logo img {
     width: 123px;
+}
+
+div.hope  img{
+    width: 100%;
 }
 
 .nossosProjetos {
