@@ -49,6 +49,7 @@
     }
     
     
+    
 }
 
 
@@ -83,6 +84,45 @@
         text-align: initial;
         margin: 8px 0 8px 0;
     }
+    
+    /* ======= */
+    .carrosel {
+       position: relative;
+       overflow: hidden;
+       max-width: 473px;
+       height: 184px;
+       margin: 0 auto;
+    }
+    #galeria {
+        display: grid;
+        grid-template-columns: repeat(4, 180px);
+        justify-content: start;
+        transition: all 200ms ease 0s;
+        transform: translate3d(-0px, 0px, 0px);
+        gap: 13px;
+        max-width: 300px;
+        gap: 10px;
+        padding: 0 0 0 44px;
+   }
+    
+   .Back, .Next{
+        position: absolute;
+        border: none;
+        padding: 16px 8px 16px 8px;
+        height: 100%;
+        top: 50%;
+        transform: translate(0, -50%);
+        z-index: 6000;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        background-color: rgba(10, 10, 10, 0.131);
+   }
+
+   #back {
+    right: -0;
+   }
+   
+   /* ======= */
 
     .imageCarousel h4 {
         font-size: 1.4rem !important;
@@ -152,5 +192,11 @@
 @media (max-width: 596px) {
     .Title h1 {
         font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .carrosel {
+        margin: 0 5px;
     }
 }
