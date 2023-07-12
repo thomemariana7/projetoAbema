@@ -113,9 +113,12 @@
         top: 50%;
         transform: translate(0, -50%);
         z-index: 6000;
-        color: rgb(0, 0, 0);
+        color: #ffffff;
         font-weight: bold;
-        background-color: rgba(10, 10, 10, 0.131);
+        background-color: var(--color-ref-tertiary0);
+        cursor: pointer;
+        display: block;
+
    }
 
    #back {

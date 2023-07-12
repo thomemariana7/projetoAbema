@@ -75,6 +75,10 @@ main {
     background-color: rgba(255, 249, 120, 0.5);
 }
 
+.Next, .Back {
+    display: none;
+}
+
 .galeriaDeImagem {
     display: flex;
     flex-direction: row;
