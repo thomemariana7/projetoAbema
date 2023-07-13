@@ -39,6 +39,7 @@ header > div {
 }
 
 .btnDonateNow{
+    text-decoration: none;
     border: 8px solid var(--color-ref-secondary0);
     background-color:rgba(0,0,0,0.1);
     border-radius: 40px;
