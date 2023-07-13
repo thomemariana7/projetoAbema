@@ -142,6 +142,7 @@ div.hope  img{
     text-transform: uppercase;
     display: block;
     margin: 18px auto 0 auto;
+    grid-row-start: 2;
 }
 
 .nossosProjetos > .nossosProjetosTexto {
