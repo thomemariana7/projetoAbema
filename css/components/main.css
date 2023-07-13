@@ -43,7 +43,9 @@ main {
 }
 
 .valores {
-
+    display: grid;
+    gap: 16px;
+    margin: 16px 0 0px 0;
 }
 
 .imageValores {
@@ -52,7 +54,7 @@ main {
     background-size: cover;
     background-position: center center;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     height: 600px;
 }
 
@@ -73,9 +75,12 @@ main {
     background-color: rgba(255, 249, 120, 0.5);
 }
 
+.Next, .Back {
+    display: none;
+}
+
 .galeriaDeImagem {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.5);
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -89,6 +94,10 @@ main {
  font-size: 16px;
  background-color: aliceblue;
  box-shadow: 8px 8px #64106e;
+}
+
+.prev, .next {
+    display: none;
 }
 
 .galeriaDeImagem  div p:nth-child(2) {
@@ -106,6 +115,10 @@ main {
 }
 .logo img {
     width: 123px;
+}
+
+div.hope  img{
+    width: 100%;
 }
 
 .nossosProjetos {

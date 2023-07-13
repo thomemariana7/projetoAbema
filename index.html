@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/style.css" rel="stylesheet">
   <title>ABEMA</title>
@@ -47,35 +46,38 @@
       <div class="imageValores">
         <div class="sombra"></div>
         <h4>Valores da Marca</h4>
-        <div class="galeriaDeImagem">
-          <div class="justica">
-            <img src="./image/valores da marca/justica.png">
-            <p>Justiça</p>
-            <p>Respeito e transparência</p>
-          </div>
-          <div class="etica">
-            <img src="./image/valores da marca/Etica.png">
-            <p>Ética</p>
-            <p>Humildade e honestidade</p>
-          </div>
-          <div class="ousadia">
-            <img src="./image/valores da marca/ousadia.png">
-            <p>Ousadia</p>
-            <p>Qualidade e responsabilidade</p>
-          </div>
-          <div class="integridade">
-            <img src="./image/valores da marca/integridade.png">
-            <p>Integridade</p>
-            <p>Compromisso com crescimento e resultados</p>
-          </div>
-
-        </div>
+        <div class="carrosel">
+          <div class="galeriaDeImagem" id="galeria">
+              <div class="justica">
+                <img src="./image/valores da marca/justica.png">
+                <p>Justiça</p>
+                <p>Respeito e transparência</p>
+              </div>
+              <div class=" etica">
+                <img src="./image/valores da marca/Etica.png">
+                <p>Ética</p>
+                <p>Humildade e honestidade</p>
+              </div>
+              <div class="ousadia">
+                <img src="./image/valores da marca/ousadia.png">
+                <p>Ousadia</p>
+                <p>Qualidade e responsabilidade</p>
+              </div>
+              <div class="integridade">
+                <img src="./image/valores da marca/integridade.png">
+                <p>Integridade</p>
+                <p>Compromisso com crescimento e resultados</p>
+              </div>
+            </div>
+            <button class="Next" id="next">Next</button>
+            <button class="Back" id="back">Back</button>
+      </div>
         <div class="logo">
           <img src="./image/valores da marca/logo_ABEMA-removebg-preview.png" alt="" srcset="">
         </div>
       </div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quos nostrum dolores ad nulla quo, doloribus cum iusto at possimus impedit molestias voluptatibus mollitia odio, doloremque laboriosam facilis, earum quam.
+      <div class="hope">
+        <img src="./image/valores da marca/hope.png" alt="hope">
       </div>
     </section>
     <section class="imageCarousel">
@@ -92,15 +94,15 @@
         <div class="carousel-indicator"></div>
         <div class="carousel-indicator"></div>
     </div>
-    <a href="#">Saiba mais</a>
+    <a href="/projetos.html">Saiba Mais</a>
     </section>
     <section class="nossosProjetos">
       <div class="nossosProjetosImgs">
-        <img src="image/Untitled.svg" alt="Projetos">
+          <img src="image/Untitled.svg" alt="Projetos">
       </div>
       <div class="nossosProjetosTexto">
         <h4>Nossos Projetos</h4>
-        <button>Saiba mais</button>
+        <!-- <a href="/projetos.html">Saiba mais</a> -->
       </div>
     </section>
     <section class="suaAjuda">
@@ -180,6 +182,7 @@
     </a>
   </footer>
   <script src="./script/script.js"></script>
+  <script src="./script/buttonsValores.js"></script>
 </body>
 
 </html>
