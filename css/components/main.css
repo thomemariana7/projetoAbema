@@ -132,6 +132,7 @@ div.hope  img{
     display: grid;
     grid-template-columns: 218px 191px;
     grid-template-rows: 150px 100px;
+    color: #64106e;
 }
 
 .nossosProjetos > .nossosProjetosTexto > h4 {
