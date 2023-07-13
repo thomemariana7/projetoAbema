@@ -87,6 +87,7 @@
     
     /* ======= */
     .carrosel {
+
        position: relative;
        overflow: hidden;
        max-width: 473px;
