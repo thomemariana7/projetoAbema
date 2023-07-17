@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-.imageCarousel  a {
+.imageCarousel  button {
     background-color: var(--color-ref-tertiary0);
     color: var(--color-ref-secondary0);
     width: 191px;
@@ -26,6 +26,7 @@
     text-transform: uppercase;
     display: block;
     margin: 18px auto 0 auto;
+    cursor: pointer;
 }
 
 

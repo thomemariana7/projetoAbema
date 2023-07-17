@@ -185,7 +185,7 @@
 
 @media (max-width: 685px) {
     .imageCarousel {
-        height: 471px;
+        /* height: 471px; */
         padding-bottom: 18px;
     }
 
