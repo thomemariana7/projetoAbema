@@ -1,0 +1,40 @@
+@import '../variable/color.css';
+
+body {
+
+    background-color: var(--color-ref-tertiary0);
+}
+
+.BancodoBrasil {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.agencia {
+    margin-bottom: 8px;
+}
+.agencia div {
+    display: inline; 
+    position: relative;
+}
+
+.agencia div button, .contaCorrente div button {
+    position: absolute; 
+    top: 1px;
+    right: 1px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+}
+
+input {
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.contaCorrente div {
+    display: inline;
+    position: relative;
+}
+
