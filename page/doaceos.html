@@ -28,12 +28,29 @@
                 </div>
             </div>
         </div>
+        <div class="BancodoBrasil">
+            <img src="../image/bancoDoBrasil.jpg" alt="Banco do Brasil">
+            <div>
+                <div class="agencia">
+                    <label for="">Ag:</label>
+                    <div>
+                        <input id="inAgencia" type="text" value="2912-2" readonly>
+                        <button id="btnAgencia">Copiar</button>
+                    </div>
+                </div>
+                <div class="contaCorrente">
+                    <label for="">C/C</label>
+                    <div>
+                        <input id="inContaCorrente" type="text" value="137.860-9" readonly>
+                        <button id="btnConta">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script>
-
         const btnAgencia = document.getElementById('btnAgencia')
         const btnConta = document.getElementById('btnConta')
-        
         btnAgencia.addEventListener('click', () => {
             let inAgencia = document.getElementById('inAgencia').value;
             if(navigator.clipboard.writeText(inAgencia))

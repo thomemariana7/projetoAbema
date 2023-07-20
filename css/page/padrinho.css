@@ -1,13 +1,17 @@
 @import '../variable/color.css';
 
 body {
-
     background-color: var(--color-ref-tertiary0);
+}
+
+h1 {
+    text-align: center;
 }
 
 .BancodoBrasil {
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
 }
 

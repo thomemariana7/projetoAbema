@@ -143,6 +143,7 @@ div.hope  img{
     display: block;
     margin: 18px auto 0 auto;
     grid-row-start: 2;
+    grid-column-start: 2;
 }
 
 .nossosProjetos > .nossosProjetosTexto {
