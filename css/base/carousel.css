@@ -13,7 +13,7 @@
     margin: 0 auto;
 }
 
-.imageCarousel  button {
+.imageCarousel  a {
     background-color: var(--color-ref-tertiary0);
     color: var(--color-ref-secondary0);
     width: 191px;

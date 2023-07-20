@@ -1,0 +1,74 @@
+@import '../variable/color.css';
+
+body {
+    background-color: var(--color-ref-tertiary0);
+}
+
+h1 {
+    text-align: center;
+}
+
+.bancodoBrasil, .bancoCaixa {
+    display: flex; 
+    gap: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agencia, .contaCorrente {
+    margin-bottom: 8px;
+}
+.agencia div, .op {
+    display: inline; 
+    position: relative;
+}
+
+.agencia div button, .contaCorrente div button, .op button {
+    position: absolute; 
+    top: 1px;
+    right: 1px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+}
+
+input {
+    outline: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.contaCorrente div, .op div {
+    display: inline;
+    position: relative;
+}
+
+.bancoCaixa {
+    margin-top: 9px;
+}
+
+.bancoCaixa img {
+    max-width: 175px;
+}
+
+.Pix {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.Pix > div {
+    position: relative;
+    display: inline;
+}
+
+.Pix > div button {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    outline: none;
+    border: none;
+    border-radius: 0 3px 3px 0;
+}
+
+.Pix span:nth-child(3) {
+    display: block;
+}
