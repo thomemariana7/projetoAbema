@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/page/doacoes.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Dados Bancários</h1>
+        <div class="bancodoBrasil">
+            <img src="../image/bancoDoBrasil.jpg" alt="Banco do Brasil">
+            <div>
+                <div class="agencia">
+                    <label>Ag:</label>
+                    <div>
+                        <input id="inAgenciaBancoDoBrasil" type="text" value="2912-2" readonly>
+                        <button id="btnAgenciaBancoDoBrasil">Copiar</button>
+                    </div>
+                </div>
+                <div class="contaCorrente">
+                    <label>C/C</label>
+                    <div>
+                        <input id="inContaCorrenteBancoDoBrasil" type="text" value="137.860-9" readonly>
+                        <button id="btnContaBancoDoBrasil">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bancoCaixa">
+            <img src="../image/bancoCaixa.webp" alt="Banco do Brasil">
+            <div>
+                <div class="agencia">
+                    <label>Ag:</label>
+                    <div>
+                        <input id="inAgenciaCaixa" type="text" value="0643" readonly>
+                        <button id="btnAgenciaCaixa">Copiar</button>
+                    </div>
+                </div>
+                <div class="contaCorrente">
+                    <label>C/C</label>
+                    <div>
+                        <input id="inContaCorrenteCaixa" type="text" value="3465-8" readonly>
+                        <button id="btnContaCorrenteCaixa">Copiar</button>
+                    </div>
+                </div>
+                <div class="op">
+                    <label>Op:</label>
+                    <input id="inOpCaixa" type="text" value="003" readonly>
+                    <button id="btnOpCaixa">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="Pix">
+            <span>Chave Pix CNPJ: </span>
+            <div>
+                <input id="inPix" type="text" value="28295753000190" readonly>
+                <button id="btnPix">Copiar</button>
+            </div>
+            <span>Associação do Bem estar dos Moradores Africanos - ABEMA</span>
+        </div>
+    </div>
+    <script>
+        const btnAgenciaBancoDoBrasil = document.getElementById('btnAgenciaBancoDoBrasil')
+        const btnContaBancoDoBrasil = document.getElementById('btnContaBancoDoBrasil')
+
+        const btnAgenciaCaixa = document.getElementById('btnAgenciaCaixa')
+        const btnContaCorrenteCaixa = document.getElementById('btnContaCorrenteCaixa')
+        const btnPix = document.getElementById('btnPix')
+
+        btnAgenciaBancoDoBrasil.addEventListener('click', () => {
+            let inAgencia = document.getElementById('inAgenciaBancoDoBrasil').value;
+            if(navigator.clipboard.writeText(inAgencia)) {
+                btnAgenciaBancoDoBrasil.style.backgroundColor = 'green'    
+                btnAgenciaBancoDoBrasil.textContent = 'Copiado!' 
+            }
+
+            setInterval(() => {
+                btnAgenciaBancoDoBrasil.textContent = 'Copiar' 
+                btnAgenciaBancoDoBrasil.style.backgroundColor = '#efefef'
+            }, 3000)
+        })
+
+        btnContaBancoDoBrasil.addEventListener('click', () => {
+            let inContaCorrenteBancoDoBrasil = document.getElementById('inContaCorrenteBancoDoBrasil').value;
+            if(navigator.clipboard.writeText(inContaCorrenteBancoDoBrasil)){
+                btnContaBancoDoBrasil.style.backgroundColor = 'green'    
+                btnContaBancoDoBrasil.textContent = 'Copiado!' 
+            }
+
+            setInterval(() => {
+                btnContaBancoDoBrasil.textContent = 'Copiar' 
+                btnContaBancoDoBrasil.style.backgroundColor = '#efefef'
+            }, 3000)
+        })
+
+        btnAgenciaCaixa.addEventListener('click', () => {
+            let inAgenciaCaixa = document.getElementById('inAgenciaCaixa').value;
+            if(navigator.clipboard.writeText(inAgenciaCaixa)){
+                 btnAgenciaCaixa.style.backgroundColor = 'green'    
+                 btnAgenciaCaixa.textContent = 'Copiado!' 
+            }
+
+            setInterval(() => {
+                 btnAgenciaCaixa.textContent = 'Copiar' 
+                 btnAgenciaCaixa.style.backgroundColor = '#efefef'
+            }, 3000)
+        })
+
+        btnContaCorrenteCaixa.addEventListener('click', () => {
+            let inContaCorrenteCaixa = document.getElementById('inContaCorrenteCaixa').value;
+            if(navigator.clipboard.writeText(inContaCorrenteCaixa)){
+                 btnContaCorrenteCaixa.style.backgroundColor = 'green'    
+                 btnContaCorrenteCaixa.textContent = 'Copiado!' 
+            }
+
+            setInterval(() => {
+                 btnContaCorrenteCaixa.textContent = 'Copiar' 
+                 btnContaCorrenteCaixa.style.backgroundColor = '#efefef'
+            }, 3000)
+        })
+
+        btnOpCaixa.addEventListener('click', () => {
+            let inOpCaixa = document.getElementById('inOpCaixa').value;
+            if(navigator.clipboard.writeText(inOpCaixa)){
+                 btnOpCaixa.style.backgroundColor = 'green'    
+                 btnOpCaixa.textContent = 'Copiado!' 
+            }
+
+            setInterval(() => {
+                 btnOpCaixa.textContent = 'Copiar' 
+                 btnOpCaixa.style.backgroundColor = '#efefef'
+            }, 3000)
+        })
+
+        btnPix.addEventListener('click', () => {
+            let inPix = document.getElementById('inPix').value;
+            if(navigator.clipboard.writeText(inPix)){
+                 btnPix.style.backgroundColor = 'green'    
+                 btnPix.textContent = 'Copiado!' 
+            }
+
+            setInterval(() => {
+                 btnPix.textContent = 'Copiar' 
+                 btnPix.style.backgroundColor = '#efefef'
+            }, 3000)
+        })
+    </script>
+</body>
+</html>
