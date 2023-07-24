@@ -1,11 +1,16 @@
 @import '../variable/color.css';
-
+@import '../../css/variable/fonts.css';
 body {
     background-color: var(--color-ref-tertiary0);
 }
 
 h1 {
     text-align: center;
+}
+
+h1, span, label {
+    color: var(--color-ref-secondary0);
+    font-family: var(--texto-Chewy);
 }
 
 .bancodoBrasil, .bancoCaixa {
@@ -71,4 +76,13 @@ input {
 
 .Pix span:nth-child(3) {
     display: block;
+}
+
+@media(max-width: 410px) {
+    .bancodoBrasil img, .bancoCaixa {
+        min-width: 90px;
+    }
+    .bancodoBrasil, .bancoCaixa {
+        flex-direction: column;
+    }
 }
